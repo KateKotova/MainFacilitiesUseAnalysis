@@ -1,0 +1,282 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD8F3A92-ED5D-4328-8698-349074100B51}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MainFacilitiesUseAnalysisClient</RootNamespace>
+    <AssemblyName>MainFacilitiesUseAnalysisClient</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\EditEssencesEventsArgs\EditAdditionalDataEventArgs.cs" />
+    <Compile Include="Classes\EditEssencesEventsArgs\EditDocumentEventArgs.cs" />
+    <Compile Include="Classes\EditEssencesEventsArgs\EditGroupEventArgs.cs" />
+    <Compile Include="Classes\EditEssencesEventsArgs\EditMainFacilityEventArgs.cs" />
+    <Compile Include="Classes\Essences\AdditionalData.cs" />
+    <Compile Include="Classes\ConnectionCondition.cs" />
+    <Compile Include="Classes\Essences\MainFacility.cs" />
+    <Compile Include="Classes\Essences\Document.cs" />
+    <Compile Include="Classes\Essences\TwoYears.cs" />
+    <Compile Include="Classes\Parameter.cs" />
+    <Compile Include="Enums\AnalysisType.cs" />
+    <Compile Include="Forms\AnalysisTypeChoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisTypeChoiceForm.Designer.cs">
+      <DependentUpon>AnalysisTypeChoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\ChangeCoefficientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\ChangeCoefficientsForm.Designer.cs">
+      <DependentUpon>ChangeCoefficientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\InfluencingFactorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\InfluencingFactorsForm.Designer.cs">
+      <DependentUpon>InfluencingFactorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\EfficiencyCoefficientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\EfficiencyCoefficientsForm.Designer.cs">
+      <DependentUpon>EfficiencyCoefficientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\SupplyCoefficientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\SupplyCoefficientsForm.Designer.cs">
+      <DependentUpon>SupplyCoefficientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\CostAndWeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\CostAndWeightForm.Designer.cs">
+      <DependentUpon>CostAndWeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\WeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\WeightForm.Designer.cs">
+      <DependentUpon>WeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\CostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisForms\CostForm.Designer.cs">
+      <DependentUpon>CostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditAdditionalDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditAdditionalDataForm.designer.cs">
+      <DependentUpon>EditAdditionalDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditDocumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditDocumentForm.designer.cs">
+      <DependentUpon>EditDocumentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditGroupForm.designer.cs">
+      <DependentUpon>EditGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditMainFacilityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditTablesForms\EditMainFacilityForm.Designer.cs">
+      <DependentUpon>EditMainFacilityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MessageForm.designer.cs">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IEditEssenceForm.cs">
+    </Compile>
+    <Compile Include="Interfaces\IEssenceForm.cs" />
+    <Compile Include="MainFacilitiesUseAnalysisDataSet.cs">
+      <DependentUpon>MainFacilitiesUseAnalysisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainFacilitiesUseAnalysisDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainFacilitiesUseAnalysisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConnectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConnectionForm.Designer.cs">
+      <DependentUpon>ConnectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structs\ConnectionAttributes.cs" />
+    <Compile Include="Enums\ConnectionSecurityLevel.cs" />
+    <Compile Include="Classes\DataContainer.cs" />
+    <Compile Include="Classes\Essences\Essence.cs" />
+    <Compile Include="Classes\Essences\Group.cs" />
+    <Compile Include="Interfaces\IClearAble.cs" />
+    <Compile Include="Classes\OperationReport.cs" />
+    <Compile Include="Enums\OperationResult.cs" />
+    <Compile Include="Enums\ParameterSqlType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AnalysisTypeChoiceForm.resx">
+      <DependentUpon>AnalysisTypeChoiceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConnectionForm.resx">
+      <DependentUpon>ConnectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\ChangeCoefficientsForm.resx">
+      <DependentUpon>ChangeCoefficientsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\InfluencingFactorsForm.resx">
+      <DependentUpon>InfluencingFactorsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\EfficiencyCoefficientsForm.resx">
+      <DependentUpon>EfficiencyCoefficientsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\SupplyCoefficientsForm.resx">
+      <DependentUpon>SupplyCoefficientsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\CostAndWeightForm.resx">
+      <DependentUpon>CostAndWeightForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\WeightForm.resx">
+      <DependentUpon>WeightForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisForms\CostForm.resx">
+      <DependentUpon>CostForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditTablesForms\EditAdditionalDataForm.resx">
+      <DependentUpon>EditAdditionalDataForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditTablesForms\EditDocumentForm.resx">
+      <DependentUpon>EditDocumentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditTablesForms\EditGroupForm.resx">
+      <DependentUpon>EditGroupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditTablesForms\EditMainFacilityForm.resx">
+      <DependentUpon>EditMainFacilityForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MessageForm.fr.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MessageForm.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MessageForm.ru.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MessageForm.tr.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowTablesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ShowTablesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="MainFacilitiesUseAnalysisDataSet.xsc">
+      <DependentUpon>MainFacilitiesUseAnalysisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MainFacilitiesUseAnalysisDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MainFacilitiesUseAnalysisDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MainFacilitiesUseAnalysisDataSet.xss">
+      <DependentUpon>MainFacilitiesUseAnalysisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Enums\StoredProcedureAction.cs" />
+    <Compile Include="Enums\StoredProcedureErrorCause.cs" />
+    <Compile Include="Forms\ShowTablesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowTablesForm.Designer.cs">
+      <DependentUpon>ShowTablesForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

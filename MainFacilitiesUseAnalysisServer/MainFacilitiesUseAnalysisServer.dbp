@@ -1,0 +1,40 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "MainFacilitiesUseAnalysisServer"
+   MSDTVersion = "80"
+   DefDBRef = "acer\sql.MainFacilitiesUseAnalysis.dbo"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "01_Tables.sql"
+      Script = "02_CalculatingSubprograms.sql"
+      Script = "03_StringFunctions.sql"
+      Script = "04_RecountTablesDataSubprograms.sql"
+      Script = "05_InsteadOfInsertTriggers.sql"
+      Script = "06_InsteadOfUpdateTriggers.sql"
+      Script = "07_InsteadOfDeleteTriggers.sql"
+      Script = "09_ShowTablesDataFunctions.sql"
+      Script = "10_ShowTablesDataProcedures.sql"
+      Script = "11_GetTablesDataSubprograms.sql"
+      Script = "12_ErrorsMessagesSubprograms.sql"
+      Script = "13_InsertTablesDataProcedures.sql"
+      Script = "14_UpdateTablesDataProcedures.sql"
+      Script = "15_DeleteTablesDataProcedures.sql"
+      Script = "16_CoefficientsCalculationgFunctions.sql"
+      Script = "17_CoefficientsStringFunctions.sql"
+      Script = "18_MainFacilitiesStructureFunctions.sql"
+      Script = "19_CoefficientsTablesFunctions.sql"
+      Script = "20_ShowCoefficientsTablesFunctions.sql"
+      Script = "21_ShowCoefficientsTablesProcedures.sql"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "acer\sql.MainFacilitiesUseAnalysis.dbo"
+         ConnectStr = "Data Source=ACER\SQL;Initial Catalog=MainFacilitiesUseAnalysis;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Queries"
+      Script = "08_InsertTablesData.sql"
+      Script = "ZZ_DEMO.sql"
+   End
+End

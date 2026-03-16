@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MainFacilitiesUseAnalysisDataSet" targetNamespace="http://tempuri.org/MainFacilitiesUseAnalysisDataSet.xsd" xmlns:mstns="http://tempuri.org/MainFacilitiesUseAnalysisDataSet.xsd" xmlns="http://tempuri.org/MainFacilitiesUseAnalysisDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MainFacilitiesUseAnalysisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MainFacilitiesUseAnalysisConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MainFacilitiesUseAnalysisClient.Properties.Settings.GlobalReference.Default.MainFacilitiesUseAnalysisConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MainFacilitiesUseAnalysisDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MainFacilitiesUseAnalysisDataSet" msprop:Generator_DataSetName="MainFacilitiesUseAnalysisDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AdditionalData" msprop:Generator_UserTableName="AdditionalData" msprop:Generator_RowDeletedName="AdditionalDataRowDeleted" msprop:Generator_TableClassName="AdditionalDataDataTable" msprop:Generator_RowChangedName="AdditionalDataRowChanged" msprop:Generator_RowClassName="AdditionalDataRow" msprop:Generator_RowChangingName="AdditionalDataRowChanging" msprop:Generator_RowEvArgName="AdditionalDataRowChangeEvent" msprop:Generator_RowEvHandlerName="AdditionalDataRowChangeEventHandler" msprop:Generator_TablePropName="AdditionalData" msprop:Generator_TableVarName="tableAdditionalData" msprop:Generator_RowDeletingName="AdditionalDataRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_UserColumnName="Year" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInTable="YearColumn" type="xs:short" />
+              <xs:element name="ProductionOutputAmount" msprop:Generator_UserColumnName="ProductionOutputAmount" msprop:Generator_ColumnPropNameInRow="ProductionOutputAmount" msprop:Generator_ColumnVarNameInTable="columnProductionOutputAmount" msprop:Generator_ColumnPropNameInTable="ProductionOutputAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MarketedProductionAmount" msprop:Generator_UserColumnName="MarketedProductionAmount" msprop:Generator_ColumnPropNameInRow="MarketedProductionAmount" msprop:Generator_ColumnVarNameInTable="columnMarketedProductionAmount" msprop:Generator_ColumnPropNameInTable="MarketedProductionAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ProductionPrimeCost" msprop:Generator_UserColumnName="ProductionPrimeCost" msprop:Generator_ColumnPropNameInRow="ProductionPrimeCost" msprop:Generator_ColumnVarNameInTable="columnProductionPrimeCost" msprop:Generator_ColumnPropNameInTable="ProductionPrimeCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalReceipts" msprop:Generator_UserColumnName="TotalReceipts" msprop:Generator_ColumnPropNameInRow="TotalReceipts" msprop:Generator_ColumnVarNameInTable="columnTotalReceipts" msprop:Generator_ColumnPropNameInTable="TotalReceiptsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ActingEquipmentAnnualAverageAmount" msprop:Generator_UserColumnName="ActingEquipmentAnnualAverageAmount" msprop:Generator_ColumnPropNameInRow="ActingEquipmentAnnualAverageAmount" msprop:Generator_ColumnVarNameInTable="columnActingEquipmentAnnualAverageAmount" msprop:Generator_ColumnPropNameInTable="ActingEquipmentAnnualAverageAmountColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="EquipmentUnitPerfectedHours" msprop:Generator_UserColumnName="EquipmentUnitPerfectedHours" msprop:Generator_ColumnPropNameInRow="EquipmentUnitPerfectedHours" msprop:Generator_ColumnVarNameInTable="columnEquipmentUnitPerfectedHours" msprop:Generator_ColumnPropNameInTable="EquipmentUnitPerfectedHoursColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="EquipmentUnitPerfectedDays" msprop:Generator_UserColumnName="EquipmentUnitPerfectedDays" msprop:Generator_ColumnPropNameInRow="EquipmentUnitPerfectedDays" msprop:Generator_ColumnVarNameInTable="columnEquipmentUnitPerfectedDays" msprop:Generator_ColumnPropNameInTable="EquipmentUnitPerfectedDaysColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="EquipmentUnitPerfectedChanges" msprop:Generator_UserColumnName="EquipmentUnitPerfectedChanges" msprop:Generator_ColumnPropNameInRow="EquipmentUnitPerfectedChanges" msprop:Generator_ColumnVarNameInTable="columnEquipmentUnitPerfectedChanges" msprop:Generator_ColumnPropNameInTable="EquipmentUnitPerfectedChangesColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ActivityTypes" msprop:Generator_UserTableName="ActivityTypes" msprop:Generator_RowDeletedName="ActivityTypesRowDeleted" msprop:Generator_TableClassName="ActivityTypesDataTable" msprop:Generator_RowChangedName="ActivityTypesRowChanged" msprop:Generator_RowClassName="ActivityTypesRow" msprop:Generator_RowChangingName="ActivityTypesRowChanging" msprop:Generator_RowEvArgName="ActivityTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ActivityTypesRowChangeEventHandler" msprop:Generator_TablePropName="ActivityTypes" msprop:Generator_TableVarName="tableActivityTypes" msprop:Generator_RowDeletingName="ActivityTypesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Documents" msprop:Generator_UserTableName="Documents" msprop:Generator_RowDeletedName="DocumentsRowDeleted" msprop:Generator_TableClassName="DocumentsDataTable" msprop:Generator_RowChangedName="DocumentsRowChanged" msprop:Generator_RowClassName="DocumentsRow" msprop:Generator_RowChangingName="DocumentsRowChanging" msprop:Generator_RowEvArgName="DocumentsRowChangeEvent" msprop:Generator_RowEvHandlerName="DocumentsRowChangeEventHandler" msprop:Generator_TablePropName="Documents" msprop:Generator_TableVarName="tableDocuments" msprop:Generator_RowDeletingName="DocumentsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TypeName" msprop:Generator_UserColumnName="TypeName" msprop:Generator_ColumnPropNameInRow="TypeName" msprop:Generator_ColumnVarNameInTable="columnTypeName" msprop:Generator_ColumnPropNameInTable="TypeNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MainFacilityName" msprop:Generator_UserColumnName="MainFacilityName" msprop:Generator_ColumnPropNameInRow="MainFacilityName" msprop:Generator_ColumnVarNameInTable="columnMainFacilityName" msprop:Generator_ColumnPropNameInTable="MainFacilityNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cost" msprop:Generator_UserColumnName="Cost" msprop:Generator_ColumnPropNameInRow="Cost" msprop:Generator_ColumnVarNameInTable="columnCost" msprop:Generator_ColumnPropNameInTable="CostColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DocumentsTypes" msprop:Generator_UserTableName="DocumentsTypes" msprop:Generator_RowDeletedName="DocumentsTypesRowDeleted" msprop:Generator_TableClassName="DocumentsTypesDataTable" msprop:Generator_RowChangedName="DocumentsTypesRowChanged" msprop:Generator_RowClassName="DocumentsTypesRow" msprop:Generator_RowChangingName="DocumentsTypesRowChanging" msprop:Generator_RowEvArgName="DocumentsTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="DocumentsTypesRowChangeEventHandler" msprop:Generator_TablePropName="DocumentsTypes" msprop:Generator_TableVarName="tableDocumentsTypes" msprop:Generator_RowDeletingName="DocumentsTypesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EfficiencyCoefficientsDescription" msprop:Generator_UserTableName="EfficiencyCoefficientsDescription" msprop:Generator_RowDeletedName="EfficiencyCoefficientsDescriptionRowDeleted" msprop:Generator_TableClassName="EfficiencyCoefficientsDescriptionDataTable" msprop:Generator_RowChangedName="EfficiencyCoefficientsDescriptionRowChanged" msprop:Generator_RowClassName="EfficiencyCoefficientsDescriptionRow" msprop:Generator_RowChangingName="EfficiencyCoefficientsDescriptionRowChanging" msprop:Generator_RowEvArgName="EfficiencyCoefficientsDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="EfficiencyCoefficientsDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="EfficiencyCoefficientsDescription" msprop:Generator_TableVarName="tableEfficiencyCoefficientsDescription" msprop:Generator_RowDeletingName="EfficiencyCoefficientsDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CoefficientChangeDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CoefficientChangeDescription" msprop:Generator_ColumnPropNameInRow="CoefficientChangeDescription" msprop:Generator_ColumnVarNameInTable="columnCoefficientChangeDescription" msprop:Generator_ColumnPropNameInTable="CoefficientChangeDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Groups" msprop:Generator_UserTableName="Groups" msprop:Generator_RowDeletedName="GroupsRowDeleted" msprop:Generator_TableClassName="GroupsDataTable" msprop:Generator_RowChangedName="GroupsRowChanged" msprop:Generator_RowClassName="GroupsRow" msprop:Generator_RowChangingName="GroupsRowChanging" msprop:Generator_RowEvArgName="GroupsRowChangeEvent" msprop:Generator_RowEvHandlerName="GroupsRowChangeEventHandler" msprop:Generator_TablePropName="Groups" msprop:Generator_TableVarName="tableGroups" msprop:Generator_RowDeletingName="GroupsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductionTypeName" msprop:Generator_UserColumnName="ProductionTypeName" msprop:Generator_ColumnPropNameInRow="ProductionTypeName" msprop:Generator_ColumnVarNameInTable="columnProductionTypeName" msprop:Generator_ColumnPropNameInTable="ProductionTypeNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ActivityTypeName" msprop:Generator_UserColumnName="ActivityTypeName" msprop:Generator_ColumnPropNameInRow="ActivityTypeName" msprop:Generator_ColumnVarNameInTable="columnActivityTypeName" msprop:Generator_ColumnPropNameInTable="ActivityTypeNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MainFacilities" msprop:Generator_UserTableName="MainFacilities" msprop:Generator_RowDeletedName="MainFacilitiesRowDeleted" msprop:Generator_TableClassName="MainFacilitiesDataTable" msprop:Generator_RowChangedName="MainFacilitiesRowChanged" msprop:Generator_RowClassName="MainFacilitiesRow" msprop:Generator_RowChangingName="MainFacilitiesRowChanging" msprop:Generator_RowEvArgName="MainFacilitiesRowChangeEvent" msprop:Generator_RowEvHandlerName="MainFacilitiesRowChangeEventHandler" msprop:Generator_TablePropName="MainFacilities" msprop:Generator_TableVarName="tableMainFacilities" msprop:Generator_RowDeletingName="MainFacilitiesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InventoryNumber" msprop:Generator_UserColumnName="InventoryNumber" msprop:Generator_ColumnPropNameInRow="InventoryNumber" msprop:Generator_ColumnVarNameInTable="columnInventoryNumber" msprop:Generator_ColumnPropNameInTable="InventoryNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GroupName" msprop:Generator_UserColumnName="GroupName" msprop:Generator_ColumnPropNameInRow="GroupName" msprop:Generator_ColumnVarNameInTable="columnGroupName" msprop:Generator_ColumnPropNameInTable="GroupNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SupplyCoefficientsDescription" msprop:Generator_UserTableName="SupplyCoefficientsDescription" msprop:Generator_RowDeletedName="SupplyCoefficientsDescriptionRowDeleted" msprop:Generator_TableClassName="SupplyCoefficientsDescriptionDataTable" msprop:Generator_RowChangedName="SupplyCoefficientsDescriptionRowChanged" msprop:Generator_RowClassName="SupplyCoefficientsDescriptionRow" msprop:Generator_RowChangingName="SupplyCoefficientsDescriptionRowChanging" msprop:Generator_RowEvArgName="SupplyCoefficientsDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="SupplyCoefficientsDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="SupplyCoefficientsDescription" msprop:Generator_TableVarName="tableSupplyCoefficientsDescription" msprop:Generator_RowDeletingName="SupplyCoefficientsDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CoefficientChangeDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CoefficientChangeDescription" msprop:Generator_ColumnPropNameInRow="CoefficientChangeDescription" msprop:Generator_ColumnVarNameInTable="columnCoefficientChangeDescription" msprop:Generator_ColumnPropNameInTable="CoefficientChangeDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ChangeCoefficients" msprop:Generator_UserTableName="ChangeCoefficients" msprop:Generator_RowDeletedName="ChangeCoefficientsRowDeleted" msprop:Generator_TableClassName="ChangeCoefficientsDataTable" msprop:Generator_RowChangedName="ChangeCoefficientsRowChanged" msprop:Generator_RowClassName="ChangeCoefficientsRow" msprop:Generator_RowChangingName="ChangeCoefficientsRowChanging" msprop:Generator_RowEvArgName="ChangeCoefficientsRowChangeEvent" msprop:Generator_RowEvHandlerName="ChangeCoefficientsRowChangeEventHandler" msprop:Generator_TablePropName="ChangeCoefficients" msprop:Generator_TableVarName="tableChangeCoefficients" msprop:Generator_RowDeletingName="ChangeCoefficientsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="450" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MeasurementUnit" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MeasurementUnit" msprop:Generator_ColumnPropNameInRow="MeasurementUnit" msprop:Generator_ColumnVarNameInTable="columnMeasurementUnit" msprop:Generator_ColumnPropNameInTable="MeasurementUnitColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Coefficient" msprop:Generator_UserColumnName="Coefficient" msprop:Generator_ColumnPropNameInRow="Coefficient" msprop:Generator_ColumnVarNameInTable="columnCoefficient" msprop:Generator_ColumnPropNameInTable="CoefficientColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ChangeCoefficientsDescription" msprop:Generator_UserTableName="ChangeCoefficientsDescription" msprop:Generator_RowDeletedName="ChangeCoefficientsDescriptionRowDeleted" msprop:Generator_TableClassName="ChangeCoefficientsDescriptionDataTable" msprop:Generator_RowChangedName="ChangeCoefficientsDescriptionRowChanged" msprop:Generator_RowClassName="ChangeCoefficientsDescriptionRow" msprop:Generator_RowChangingName="ChangeCoefficientsDescriptionRowChanging" msprop:Generator_RowEvArgName="ChangeCoefficientsDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="ChangeCoefficientsDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="ChangeCoefficientsDescription" msprop:Generator_TableVarName="tableChangeCoefficientsDescription" msprop:Generator_RowDeletingName="ChangeCoefficientsDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CoefficientValueDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CoefficientValueDescription" msprop:Generator_ColumnPropNameInRow="CoefficientValueDescription" msprop:Generator_ColumnVarNameInTable="columnCoefficientValueDescription" msprop:Generator_ColumnPropNameInTable="CoefficientValueDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InfluencingFactors" msprop:Generator_UserTableName="InfluencingFactors" msprop:Generator_RowDeletedName="InfluencingFactorsRowDeleted" msprop:Generator_TableClassName="InfluencingFactorsDataTable" msprop:Generator_RowChangedName="InfluencingFactorsRowChanged" msprop:Generator_RowClassName="InfluencingFactorsRow" msprop:Generator_RowChangingName="InfluencingFactorsRowChanging" msprop:Generator_RowEvArgName="InfluencingFactorsRowChangeEvent" msprop:Generator_RowEvHandlerName="InfluencingFactorsRowChangeEventHandler" msprop:Generator_TablePropName="InfluencingFactors" msprop:Generator_TableVarName="tableInfluencingFactors" msprop:Generator_RowDeletingName="InfluencingFactorsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="450" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductionFundCapitalProductivityChange" msprop:Generator_UserColumnName="ProductionFundCapitalProductivityChange" msprop:Generator_ColumnPropNameInRow="ProductionFundCapitalProductivityChange" msprop:Generator_ColumnVarNameInTable="columnProductionFundCapitalProductivityChange" msprop:Generator_ColumnPropNameInTable="ProductionFundCapitalProductivityChangeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="ProductionFundProfitabilityChange" msprop:Generator_UserColumnName="ProductionFundProfitabilityChange" msprop:Generator_ColumnPropNameInRow="ProductionFundProfitabilityChange" msprop:Generator_ColumnVarNameInTable="columnProductionFundProfitabilityChange" msprop:Generator_ColumnPropNameInTable="ProductionFundProfitabilityChangeColumn" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InfluencingFactorsDescription" msprop:Generator_UserTableName="InfluencingFactorsDescription" msprop:Generator_RowDeletedName="InfluencingFactorsDescriptionRowDeleted" msprop:Generator_TableClassName="InfluencingFactorsDescriptionDataTable" msprop:Generator_RowChangedName="InfluencingFactorsDescriptionRowChanged" msprop:Generator_RowClassName="InfluencingFactorsDescriptionRow" msprop:Generator_RowChangingName="InfluencingFactorsDescriptionRowChanging" msprop:Generator_RowEvArgName="InfluencingFactorsDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="InfluencingFactorsDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="InfluencingFactorsDescription" msprop:Generator_TableVarName="tableInfluencingFactorsDescription" msprop:Generator_RowDeletingName="InfluencingFactorsDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InfluencingFactorDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InfluencingFactorDescription" msprop:Generator_ColumnPropNameInRow="InfluencingFactorDescription" msprop:Generator_ColumnVarNameInTable="columnInfluencingFactorDescription" msprop:Generator_ColumnPropNameInTable="InfluencingFactorDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductionTypes" msprop:Generator_UserTableName="ProductionTypes" msprop:Generator_RowDeletedName="ProductionTypesRowDeleted" msprop:Generator_TableClassName="ProductionTypesDataTable" msprop:Generator_RowChangedName="ProductionTypesRowChanged" msprop:Generator_RowClassName="ProductionTypesRow" msprop:Generator_RowChangingName="ProductionTypesRowChanging" msprop:Generator_RowEvArgName="ProductionTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ProductionTypesRowChangeEventHandler" msprop:Generator_TablePropName="ProductionTypes" msprop:Generator_TableVarName="tableProductionTypes" msprop:Generator_RowDeletingName="ProductionTypesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CostAndWeightDescription" msprop:Generator_UserTableName="CostAndWeightDescription" msprop:Generator_RowDeletedName="CostAndWeightDescriptionRowDeleted" msprop:Generator_TableClassName="CostAndWeightDescriptionDataTable" msprop:Generator_RowChangedName="CostAndWeightDescriptionRowChanged" msprop:Generator_RowClassName="CostAndWeightDescriptionRow" msprop:Generator_RowChangingName="CostAndWeightDescriptionRowChanging" msprop:Generator_RowEvArgName="CostAndWeightDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="CostAndWeightDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="CostAndWeightDescription" msprop:Generator_TableVarName="tableCostAndWeightDescription" msprop:Generator_RowDeletingName="CostAndWeightDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CostAndWeightChangesDescription" msprop:Generator_UserColumnName="CostAndWeightChangesDescription" msprop:Generator_ColumnPropNameInRow="CostAndWeightChangesDescription" msprop:Generator_ColumnVarNameInTable="columnCostAndWeightChangesDescription" msprop:Generator_ColumnPropNameInTable="CostAndWeightChangesDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CostDescription" msprop:Generator_UserTableName="CostDescription" msprop:Generator_RowDeletedName="CostDescriptionRowDeleted" msprop:Generator_TableClassName="CostDescriptionDataTable" msprop:Generator_RowChangedName="CostDescriptionRowChanged" msprop:Generator_RowClassName="CostDescriptionRow" msprop:Generator_RowChangingName="CostDescriptionRowChanging" msprop:Generator_RowEvArgName="CostDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="CostDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="CostDescription" msprop:Generator_TableVarName="tableCostDescription" msprop:Generator_RowDeletingName="CostDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CostChangeDescription" msprop:Generator_UserColumnName="CostChangeDescription" msprop:Generator_ColumnPropNameInRow="CostChangeDescription" msprop:Generator_ColumnVarNameInTable="columnCostChangeDescription" msprop:Generator_ColumnPropNameInTable="CostChangeDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WeightDescription" msprop:Generator_UserTableName="WeightDescription" msprop:Generator_RowDeletedName="WeightDescriptionRowDeleted" msprop:Generator_TableClassName="WeightDescriptionDataTable" msprop:Generator_RowChangedName="WeightDescriptionRowChanged" msprop:Generator_RowClassName="WeightDescriptionRow" msprop:Generator_RowChangingName="WeightDescriptionRowChanging" msprop:Generator_RowEvArgName="WeightDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="WeightDescriptionRowChangeEventHandler" msprop:Generator_TablePropName="WeightDescription" msprop:Generator_TableVarName="tableWeightDescription" msprop:Generator_RowDeletingName="WeightDescriptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CostWeightChangeDescription" msprop:Generator_UserColumnName="CostWeightChangeDescription" msprop:Generator_ColumnPropNameInRow="CostWeightChangeDescription" msprop:Generator_ColumnVarNameInTable="columnCostWeightChangeDescription" msprop:Generator_ColumnPropNameInTable="CostWeightChangeDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EfficiencyCoefficients" msprop:Generator_UserTableName="EfficiencyCoefficients" msprop:Generator_RowDeletedName="EfficiencyCoefficientsRowDeleted" msprop:Generator_TableClassName="EfficiencyCoefficientsDataTable" msprop:Generator_RowChangedName="EfficiencyCoefficientsRowChanged" msprop:Generator_RowClassName="EfficiencyCoefficientsRow" msprop:Generator_RowChangingName="EfficiencyCoefficientsRowChanging" msprop:Generator_RowEvArgName="EfficiencyCoefficientsRowChangeEvent" msprop:Generator_RowEvHandlerName="EfficiencyCoefficientsRowChangeEventHandler" msprop:Generator_TablePropName="EfficiencyCoefficients" msprop:Generator_TableVarName="tableEfficiencyCoefficients" msprop:Generator_RowDeletingName="EfficiencyCoefficientsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="450" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MeasurementUnit" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MeasurementUnit" msprop:Generator_ColumnPropNameInRow="MeasurementUnit" msprop:Generator_ColumnVarNameInTable="columnMeasurementUnit" msprop:Generator_ColumnPropNameInTable="MeasurementUnitColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BaseYearCoefficient" msprop:Generator_UserColumnName="BaseYearCoefficient" msprop:Generator_ColumnPropNameInRow="BaseYearCoefficient" msprop:Generator_ColumnVarNameInTable="columnBaseYearCoefficient" msprop:Generator_ColumnPropNameInTable="BaseYearCoefficientColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AnalysedYearCoefficient" msprop:Generator_UserColumnName="AnalysedYearCoefficient" msprop:Generator_ColumnPropNameInRow="AnalysedYearCoefficient" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearCoefficient" msprop:Generator_ColumnPropNameInTable="AnalysedYearCoefficientColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CoefficientChange" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CoefficientChange" msprop:Generator_ColumnPropNameInRow="CoefficientChange" msprop:Generator_ColumnVarNameInTable="columnCoefficientChange" msprop:Generator_ColumnPropNameInTable="CoefficientChangeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cost" msprop:Generator_UserTableName="Cost" msprop:Generator_RowDeletedName="CostRowDeleted" msprop:Generator_TableClassName="CostDataTable" msprop:Generator_RowChangedName="CostRowChanged" msprop:Generator_RowClassName="CostRow" msprop:Generator_RowChangingName="CostRowChanging" msprop:Generator_RowEvArgName="CostRowChangeEvent" msprop:Generator_RowEvHandlerName="CostRowChangeEventHandler" msprop:Generator_TablePropName="Cost" msprop:Generator_TableVarName="tableCost" msprop:Generator_RowDeletingName="CostRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="458" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BaseYearBeginYearCost" msprop:Generator_UserColumnName="BaseYearBeginYearCost" msprop:Generator_ColumnPropNameInRow="BaseYearBeginYearCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearBeginYearCost" msprop:Generator_ColumnPropNameInTable="BaseYearBeginYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearComingCost" msprop:Generator_UserColumnName="BaseYearComingCost" msprop:Generator_ColumnPropNameInRow="BaseYearComingCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearComingCost" msprop:Generator_ColumnPropNameInTable="BaseYearComingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearLeavingCost" msprop:Generator_UserColumnName="BaseYearLeavingCost" msprop:Generator_ColumnPropNameInRow="BaseYearLeavingCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearLeavingCost" msprop:Generator_ColumnPropNameInTable="BaseYearLeavingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearEndYearCost" msprop:Generator_UserColumnName="BaseYearEndYearCost" msprop:Generator_ColumnPropNameInRow="BaseYearEndYearCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearEndYearCost" msprop:Generator_ColumnPropNameInTable="BaseYearEndYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearBeginYearCost" msprop:Generator_UserColumnName="AnalysedYearBeginYearCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearBeginYearCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearBeginYearCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearBeginYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearComingCost" msprop:Generator_UserColumnName="AnalysedYearComingCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearComingCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearComingCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearComingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearLeavingCost" msprop:Generator_UserColumnName="AnalysedYearLeavingCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearLeavingCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearLeavingCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearLeavingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearEndYearCost" msprop:Generator_UserColumnName="AnalysedYearEndYearCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearEndYearCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearEndYearCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearEndYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BeginYearCostChange" msprop:Generator_UserColumnName="BeginYearCostChange" msprop:Generator_ColumnPropNameInRow="BeginYearCostChange" msprop:Generator_ColumnVarNameInTable="columnBeginYearCostChange" msprop:Generator_ColumnPropNameInTable="BeginYearCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ComingCostChange" msprop:Generator_UserColumnName="ComingCostChange" msprop:Generator_ColumnPropNameInRow="ComingCostChange" msprop:Generator_ColumnVarNameInTable="columnComingCostChange" msprop:Generator_ColumnPropNameInTable="ComingCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LeavingCostChange" msprop:Generator_UserColumnName="LeavingCostChange" msprop:Generator_ColumnPropNameInRow="LeavingCostChange" msprop:Generator_ColumnVarNameInTable="columnLeavingCostChange" msprop:Generator_ColumnPropNameInTable="LeavingCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EndYearCostChange" msprop:Generator_UserColumnName="EndYearCostChange" msprop:Generator_ColumnPropNameInRow="EndYearCostChange" msprop:Generator_ColumnVarNameInTable="columnEndYearCostChange" msprop:Generator_ColumnPropNameInTable="EndYearCostChangeColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CostAndWeight" msprop:Generator_UserTableName="CostAndWeight" msprop:Generator_RowDeletedName="CostAndWeightRowDeleted" msprop:Generator_TableClassName="CostAndWeightDataTable" msprop:Generator_RowChangedName="CostAndWeightRowChanged" msprop:Generator_RowClassName="CostAndWeightRow" msprop:Generator_RowChangingName="CostAndWeightRowChanging" msprop:Generator_RowEvArgName="CostAndWeightRowChangeEvent" msprop:Generator_RowEvHandlerName="CostAndWeightRowChangeEventHandler" msprop:Generator_TablePropName="CostAndWeight" msprop:Generator_TableVarName="tableCostAndWeight" msprop:Generator_RowDeletingName="CostAndWeightRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="458" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BaseYearBeginYearCost" msprop:Generator_UserColumnName="BaseYearBeginYearCost" msprop:Generator_ColumnPropNameInRow="BaseYearBeginYearCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearBeginYearCost" msprop:Generator_ColumnPropNameInTable="BaseYearBeginYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearBeginYearCostWeight" msprop:Generator_UserColumnName="BaseYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearBeginYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearBeginYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BaseYearComingCost" msprop:Generator_UserColumnName="BaseYearComingCost" msprop:Generator_ColumnPropNameInRow="BaseYearComingCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearComingCost" msprop:Generator_ColumnPropNameInTable="BaseYearComingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearComingCostWeight" msprop:Generator_UserColumnName="BaseYearComingCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearComingCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearComingCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearComingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BaseYearLeavingCost" msprop:Generator_UserColumnName="BaseYearLeavingCost" msprop:Generator_ColumnPropNameInRow="BaseYearLeavingCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearLeavingCost" msprop:Generator_ColumnPropNameInTable="BaseYearLeavingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearLeavingCostWeight" msprop:Generator_UserColumnName="BaseYearLeavingCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearLeavingCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearLeavingCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearLeavingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BaseYearEndYearCost" msprop:Generator_UserColumnName="BaseYearEndYearCost" msprop:Generator_ColumnPropNameInRow="BaseYearEndYearCost" msprop:Generator_ColumnVarNameInTable="columnBaseYearEndYearCost" msprop:Generator_ColumnPropNameInTable="BaseYearEndYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseYearEndYearCostWeight" msprop:Generator_UserColumnName="BaseYearEndYearCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearEndYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearEndYearCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearEndYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearBeginYearCost" msprop:Generator_UserColumnName="AnalysedYearBeginYearCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearBeginYearCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearBeginYearCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearBeginYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearBeginYearCostWeight" msprop:Generator_UserColumnName="AnalysedYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearBeginYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearBeginYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearComingCost" msprop:Generator_UserColumnName="AnalysedYearComingCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearComingCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearComingCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearComingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearComingCostWeight" msprop:Generator_UserColumnName="AnalysedYearComingCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearComingCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearComingCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearComingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearLeavingCost" msprop:Generator_UserColumnName="AnalysedYearLeavingCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearLeavingCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearLeavingCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearLeavingCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearLeavingCostWeight" msprop:Generator_UserColumnName="AnalysedYearLeavingCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearLeavingCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearLeavingCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearLeavingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearEndYearCost" msprop:Generator_UserColumnName="AnalysedYearEndYearCost" msprop:Generator_ColumnPropNameInRow="AnalysedYearEndYearCost" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearEndYearCost" msprop:Generator_ColumnPropNameInTable="AnalysedYearEndYearCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AnalysedYearEndYearCostWeight" msprop:Generator_UserColumnName="AnalysedYearEndYearCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearEndYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearEndYearCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearEndYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BeginYearCostChange" msprop:Generator_UserColumnName="BeginYearCostChange" msprop:Generator_ColumnPropNameInRow="BeginYearCostChange" msprop:Generator_ColumnVarNameInTable="columnBeginYearCostChange" msprop:Generator_ColumnPropNameInTable="BeginYearCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BeginYearCostWeightChange" msprop:Generator_UserColumnName="BeginYearCostWeightChange" msprop:Generator_ColumnPropNameInRow="BeginYearCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnBeginYearCostWeightChange" msprop:Generator_ColumnPropNameInTable="BeginYearCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ComingCostChange" msprop:Generator_UserColumnName="ComingCostChange" msprop:Generator_ColumnPropNameInRow="ComingCostChange" msprop:Generator_ColumnVarNameInTable="columnComingCostChange" msprop:Generator_ColumnPropNameInTable="ComingCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ComingCostWeightChange" msprop:Generator_UserColumnName="ComingCostWeightChange" msprop:Generator_ColumnPropNameInRow="ComingCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnComingCostWeightChange" msprop:Generator_ColumnPropNameInTable="ComingCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LeavingCostChange" msprop:Generator_UserColumnName="LeavingCostChange" msprop:Generator_ColumnPropNameInRow="LeavingCostChange" msprop:Generator_ColumnVarNameInTable="columnLeavingCostChange" msprop:Generator_ColumnPropNameInTable="LeavingCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LeavingCostWeightChange" msprop:Generator_UserColumnName="LeavingCostWeightChange" msprop:Generator_ColumnPropNameInRow="LeavingCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnLeavingCostWeightChange" msprop:Generator_ColumnPropNameInTable="LeavingCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EndYearCostChange" msprop:Generator_UserColumnName="EndYearCostChange" msprop:Generator_ColumnPropNameInRow="EndYearCostChange" msprop:Generator_ColumnVarNameInTable="columnEndYearCostChange" msprop:Generator_ColumnPropNameInTable="EndYearCostChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EndYearCostWeightChange" msprop:Generator_UserColumnName="EndYearCostWeightChange" msprop:Generator_ColumnPropNameInRow="EndYearCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnEndYearCostWeightChange" msprop:Generator_ColumnPropNameInTable="EndYearCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SupplyCoefficients" msprop:Generator_UserTableName="SupplyCoefficients" msprop:Generator_RowDeletedName="SupplyCoefficientsRowDeleted" msprop:Generator_TableClassName="SupplyCoefficientsDataTable" msprop:Generator_RowChangedName="SupplyCoefficientsRowChanged" msprop:Generator_RowClassName="SupplyCoefficientsRow" msprop:Generator_RowChangingName="SupplyCoefficientsRowChanging" msprop:Generator_RowEvArgName="SupplyCoefficientsRowChangeEvent" msprop:Generator_RowEvHandlerName="SupplyCoefficientsRowChangeEventHandler" msprop:Generator_TablePropName="SupplyCoefficients" msprop:Generator_TableVarName="tableSupplyCoefficients" msprop:Generator_RowDeletingName="SupplyCoefficientsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="450" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MeasurementUnit" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MeasurementUnit" msprop:Generator_ColumnPropNameInRow="MeasurementUnit" msprop:Generator_ColumnVarNameInTable="columnMeasurementUnit" msprop:Generator_ColumnPropNameInTable="MeasurementUnitColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BaseYearCoefficient" msprop:Generator_UserColumnName="BaseYearCoefficient" msprop:Generator_ColumnPropNameInRow="BaseYearCoefficient" msprop:Generator_ColumnVarNameInTable="columnBaseYearCoefficient" msprop:Generator_ColumnPropNameInTable="BaseYearCoefficientColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearCoefficient" msprop:Generator_UserColumnName="AnalysedYearCoefficient" msprop:Generator_ColumnPropNameInRow="AnalysedYearCoefficient" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearCoefficient" msprop:Generator_ColumnPropNameInTable="AnalysedYearCoefficientColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="CoefficientChange" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CoefficientChange" msprop:Generator_ColumnPropNameInRow="CoefficientChange" msprop:Generator_ColumnVarNameInTable="columnCoefficientChange" msprop:Generator_ColumnPropNameInTable="CoefficientChangeColumn" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Weight" msprop:Generator_UserTableName="Weight" msprop:Generator_RowDeletedName="WeightRowDeleted" msprop:Generator_TableClassName="WeightDataTable" msprop:Generator_RowChangedName="WeightRowChanged" msprop:Generator_RowClassName="WeightRow" msprop:Generator_RowChangingName="WeightRowChanging" msprop:Generator_RowEvArgName="WeightRowChangeEvent" msprop:Generator_RowEvHandlerName="WeightRowChangeEventHandler" msprop:Generator_TablePropName="Weight" msprop:Generator_TableVarName="tableWeight" msprop:Generator_RowDeletingName="WeightRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="458" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BaseYearBeginYearCostWeight" msprop:Generator_UserColumnName="BaseYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearBeginYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearBeginYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BaseYearComingCostWeight" msprop:Generator_UserColumnName="BaseYearComingCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearComingCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearComingCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearComingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BaseYearLeavingCostWeight" msprop:Generator_UserColumnName="BaseYearLeavingCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearLeavingCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearLeavingCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearLeavingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BaseYearEndYearCostWeight" msprop:Generator_UserColumnName="BaseYearEndYearCostWeight" msprop:Generator_ColumnPropNameInRow="BaseYearEndYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnBaseYearEndYearCostWeight" msprop:Generator_ColumnPropNameInTable="BaseYearEndYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearBeginYearCostWeight" msprop:Generator_UserColumnName="AnalysedYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearBeginYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearBeginYearCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearBeginYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearComingCostWeight" msprop:Generator_UserColumnName="AnalysedYearComingCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearComingCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearComingCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearComingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearLeavingCostWeight" msprop:Generator_UserColumnName="AnalysedYearLeavingCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearLeavingCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearLeavingCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearLeavingCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="AnalysedYearEndYearCostWeight" msprop:Generator_UserColumnName="AnalysedYearEndYearCostWeight" msprop:Generator_ColumnPropNameInRow="AnalysedYearEndYearCostWeight" msprop:Generator_ColumnVarNameInTable="columnAnalysedYearEndYearCostWeight" msprop:Generator_ColumnPropNameInTable="AnalysedYearEndYearCostWeightColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BeginYearCostWeightChange" msprop:Generator_UserColumnName="BeginYearCostWeightChange" msprop:Generator_ColumnPropNameInRow="BeginYearCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnBeginYearCostWeightChange" msprop:Generator_ColumnPropNameInTable="BeginYearCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ComingCostWeightChange" msprop:Generator_UserColumnName="ComingCostWeightChange" msprop:Generator_ColumnPropNameInRow="ComingCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnComingCostWeightChange" msprop:Generator_ColumnPropNameInTable="ComingCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LeavingCostWeightChange" msprop:Generator_UserColumnName="LeavingCostWeightChange" msprop:Generator_ColumnPropNameInRow="LeavingCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnLeavingCostWeightChange" msprop:Generator_ColumnPropNameInTable="LeavingCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EndYearCostWeightChange" msprop:Generator_UserColumnName="EndYearCostWeightChange" msprop:Generator_ColumnPropNameInRow="EndYearCostWeightChange" msprop:Generator_ColumnVarNameInTable="columnEndYearCostWeightChange" msprop:Generator_ColumnPropNameInTable="EndYearCostWeightChangeColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
